@@ -1,0 +1,17 @@
+{
+  "name": "sharkcop-api",
+  "version": "1.0.0",
+  "description": "api service for sharkcop, call to other service (ai, fetch content,....) and return to reverse proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "yit",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  }
+}
